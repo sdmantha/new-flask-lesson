@@ -1,0 +1,26 @@
+first thing i did 
+    pipenv install 
+install dependicies
+    pipenv install flask peewee psycopg2-binary
+
+<!-- To activate this project's virtualenv, run 
+    pipenv shell.
+Alternatively, run a command inside the virtualenv with 
+    pipenv run. -->
+open virtual environment
+    pipenv shell
+
+to run the file in a local host type
+    python3 app.py 
+then grab the link they shared in the terinal and put it in the web
+    http://127.0.0.1:5000
+
+
+
+
+
+ steps in postman to check in the other routes work( open app on the computer)
+  -type in http://127.0.0.1:3030/endpoint
+  -change the get to delete
+
+  flask.py was created to add the code in the repo (not what we created ) we are using flask with peewee in that file
